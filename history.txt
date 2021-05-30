@@ -1,0 +1,43 @@
+  303  mkdir git-majonez
+  304  cd git-majonez/
+  305  ls
+  306  git init
+  307  sudo apt install git
+  308  ls
+  309  git init
+  310  nano main.cpp
+  311  git status
+  312  git add main.cpp
+  313  git status
+  314  git commit -m"Initial commit"
+  315  git config --global user.email "k.andrzewski@gmail.com"
+  316  git config --global user.name "KamilDLC"
+  317  git commit -m"Initial commit"
+  318  nano main.cpp
+  319  git add main.cpp
+  320  git commit -m"Farewell changed"
+  321  git remote add origin https://github.com/KamilDLC/git-majonez.git
+  322  git push -u origin master
+  323  git checkout -b cs
+  324  git reset --hard
+  325  ls
+  326  nano main.cpp
+  327  git add main.cpp
+  328  git commit -m"Greetings"
+  329  git push origin cs
+  330  git status
+  331  git checkout master
+  332  git merge
+  333  git merge cs
+  334  nano main.cpp
+  335  git checkout cs
+  336  nano main.cpp
+  337  git checkout master
+  338  git staus
+  339  git status
+  340  git log
+  341  nano main.cpp
+  342  git add .
+  343  git status
+  344  hitory
+  345  history
